@@ -1,0 +1,22 @@
+{
+  "name": "ecs-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loql/ecs-content.git"
+  },
+  "author": "Ben Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loql/ecs-content/issues"
+  },
+  "homepage": "https://github.com/loql/ecs-content#readme",
+  "dependencies": {
+    "express": "4.14.1"
+  }
+}
