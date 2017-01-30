@@ -2,7 +2,7 @@ app:
   build: .
   volumes:
     - ./src/:/usr/workplace/src
-  dockerfile: ./docker/Dockerfile
+  dockerfile: ./docker/basic/Dockerfile
   command: sh ./app_start.sh
   ports:
     - "8888:3000"

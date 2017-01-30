@@ -11,6 +11,6 @@ RUN mkdir -p /usr/workspace && cp -a /tmp/node_modules /usr/workspace/
 WORKDIR /usr/workspace/
 
 ADD ./src ./src
-ADD docker/app_start.sh ./
+ADD docker/basic/app_start.sh ./
 ADD .npmrc ./
 ADD package.json ./
