@@ -1,7 +1,7 @@
 {
   "name": "ecs-content",
   "version": "1.0.0",
-  "description": "",
+  "description": "Docker practice",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
