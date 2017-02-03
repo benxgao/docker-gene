@@ -1,21 +1,22 @@
 {
-  "name": "ecs-content",
+  "name": "docker-gene",
   "version": "1.0.0",
-  "description": "Docker practice",
+  "description": "Play around with Docker",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "basic:u": "docker-compose -f ./basic/docker-compose.yml up",
+    "basic:b": "docker-compose -f ./basic/docker-compose.yml build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loql/ecs-content.git"
+    "url": "git+https://github.com/loql/docker-gene.git"
   },
   "author": "Ben Gao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loql/ecs-content/issues"
+    "url": "https://github.com/loql/docker-gene/issues"
   },
-  "homepage": "https://github.com/loql/ecs-content#readme",
+  "homepage": "https://github.com/loql/docker-gene#readme",
   "dependencies": {
     "express": "4.14.1"
   }

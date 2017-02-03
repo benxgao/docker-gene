@@ -10,7 +10,7 @@ RUN mkdir -p /usr/workspace && cp -a /tmp/node_modules /usr/workspace/
 
 WORKDIR /usr/workspace/
 
-ADD ./src ./src
-ADD docker/basic/app_start.sh ./
+ADD ./app ./app
+ADD ./app_start.sh ./
 ADD .npmrc ./
 ADD package.json ./
