@@ -1,0 +1,17 @@
+bdd:
+  build: .
+  volumes:
+    - ./features/:/usr/features
+  dockerfile: ./bdd.Dockerfile
+  command: pwd
+  links:
+    - app
+
+app:
+  build: .
+  volumes:
+    - ./app/:/usr/workplace/app
+  dockerfile: ./app.Dockerfile
+  command: sh ./app_start.sh
+  ports:
+    - "3000:3000"

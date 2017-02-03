@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "dependencies": {
+    "express": "4.14.1",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-webdriver": "1.2.0",
+    "selenium-webdriver": "3.0.1"
+  }
+}
