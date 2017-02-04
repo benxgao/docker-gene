@@ -1,7 +1,7 @@
 bdd:
   build: .
   volumes:
-    - ./features/:/usr/workplace/features
+    - ./features/:/usr/workplace/features/
   dockerfile: ./bdd.Dockerfile
   command: sh ./bdd_start.sh
   links:

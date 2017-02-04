@@ -10,7 +10,7 @@ RUN apk update && \
 WORKDIR /usr/workspace/
 
 ADD .npmrc ./
-ADD ./features ./
+ADD ./features ./features
 
 RUN npm update && \
     npm i -g cucumber
